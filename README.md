@@ -13,6 +13,7 @@ Files
 
 Download the following files to help you get started:
 Module 2 Challenge files Links to an external site.
+
 **Instructions**
 
 Create a script that loops through all the stocks for one year and outputs the following information:
