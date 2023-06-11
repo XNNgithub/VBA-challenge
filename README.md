@@ -14,6 +14,7 @@ The result should match the following image:
 Moderate solution
 
 **Bonus**
+
 Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". The solution should match the following image:
 Hard solution
 
