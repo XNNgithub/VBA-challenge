@@ -111,16 +111,16 @@ Next i
 For i = 2 To LastRowI
         
 'Find the max percent change
-            If ws.Cells(i, 11).Value = WorksheetFunction.Max(ws.Range("K2:K" & LastRowI)) Then
-                ws.Range("P2").Value = ws.Cells(i, 9).Value
-                ws.Range("Q2").Value = ws.Cells(i, 11).Value
-                ws.Range("Q2").NumberFormat = "0.00%"
+ If ws.Cells(i, 11).Value = WorksheetFunction.Max(ws.Range("K2:K" & LastRowI)) Then
+    ws.Range("P2").Value = ws.Cells(i, 9).Value
+    ws.Range("Q2").Value = ws.Cells(i, 11).Value
+    ws.Range("Q2").NumberFormat = "0.00%"
  
  'Find the min percent change
 ElseIf ws.Cells(i, 11).Value = WorksheetFunction.Min(ws.Range("K2:K" & LastRowI)) Then
-         ws.Range("P3").Value = ws.Cells(i, 9).Value
-        ws.Range("Q3").Value = ws.Cells(i, 11).Value
-        ws.Range("Q3").NumberFormat = "0.00%"
+       ws.Range("P3").Value = ws.Cells(i, 9).Value
+       ws.Range("Q3").Value = ws.Cells(i, 11).Value
+       ws.Range("Q3").NumberFormat = "0.00%"
              
 'Find the max volume
 ElseIf ws.Cells(i, 12).Value = WorksheetFunction.Max(ws.Range("L2:L" & LastRowI)) Then
